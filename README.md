@@ -33,7 +33,7 @@ The architecture can be customized by adjusting parameters by applying these par
 
   - Pass the path of train dataset folder in **"arguments"** method 
     
-  - As i am applyinf pre-trained model on train dataset by spliting it in 80% training and 20% validation i am fine tuning the pre-trained Resnet model for better validation accuracy.
+  - As i am applying pre-trained model on train dataset by spliting it in 80% training and 20% validation i am fine tuning the pre-trained Resnet model for better validation accuracy.
     
 
 In Part B, the following parameters can be customized:
@@ -55,6 +55,8 @@ In Part B, the following parameters can be customized:
 
 
 - Note:
+
+  - Run Each cell Sequencially Top to Bottom for avoiding errors.
   
   - Each notebook provides detailed instructions and code comments to guide customization and execution.
     
