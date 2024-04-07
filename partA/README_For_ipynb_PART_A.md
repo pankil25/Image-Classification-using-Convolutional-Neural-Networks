@@ -31,4 +31,7 @@ The architecture can be customized by adjusting parameters by applying these par
   - It is recommended to have a GPU-enabled environment for faster training.
     
   - Ensure that the dataset folders are correctly structured and contain the necessary images for training and testing.
+ 
+
+## Don't Rely on tqdm progress bar as it seems not progressing but actually the run is running so wait for few minitues to complete one epoch as one epoch completes accuracy will be printed so you can verify that it it running perfectly fine.
     
