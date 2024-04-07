@@ -19,8 +19,9 @@ The architecture can be customized by adjusting parameters such as:
 
 - Usage:
 
-  - Pass the path of train dataset folder to :
-  - Pass the path of test dataset folder to :
+  - Pass the path of train dataset folder in **Question 2 "arguments"** method and in **Question 4 "arguments_2"** method :
+    
+  - Pass the path of test dataset folder in Question 4 "arguments_2" method :
 
 
 
@@ -44,8 +45,9 @@ In Part B, the following parameters can be customized:
 
 - Usage:
 
-  - Pass the path of train dataset folder to :
-  - Pass the path of test dataset folder to :
+  - Pass the path of train dataset folder in **"arguments"** method 
+    
+  - As i am applyinf pre-trained model on train dataset by spliting it in 80% training and 20% validation i am fine tuning the pre-trained Resnet model for better validation accuracy.
 
 
 - Note:
