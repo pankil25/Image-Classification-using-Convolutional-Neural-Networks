@@ -22,7 +22,6 @@ The architecture can be customized by adjusting parameters by applying these par
 
 
 
-
 - Note:
 
   - Run Each cell Sequencially Top to Bottom for avoiding errors.
