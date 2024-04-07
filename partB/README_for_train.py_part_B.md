@@ -21,7 +21,7 @@ pip install torch torchvision Pillow matplotlib tqdm wandb
 
 
 
-Following are the parameters for train.py :
+## Following are the parameters for train.py :
 
 --num_filters: Number of filters/kernels in each convolutional layer. Default: 128.
 
@@ -72,6 +72,6 @@ python train_partb.py --num_filters 128 --activation gelu --filter_organization 
 
 
 
-# Replace /path/to/training_dataset and /path/to/test_dataset with the actual paths to your training and test datasets, respectively.
+## Replace /path/to/training_dataset and /path/to/test_dataset with the actual paths to your training and test datasets, respectively.
 
                         
