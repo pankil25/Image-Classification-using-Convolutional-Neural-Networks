@@ -39,3 +39,6 @@ In Part B, the following parameters can be customized:
 Feel free to explore and experiment with different parameter configurations to achieve optimal performance for your image classification tasks!
 
 
+## Don't Rely on tqdm progress bar as it seems not progressing but actually the run is running so wait for few minitues to complete one epoch as one epoch completes accuracy will be printed so you can verify that it it running perfectly fine.
+
+
