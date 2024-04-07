@@ -73,4 +73,8 @@ python train_partb.py --num_filters 128 --activation gelu --filter_organization 
 
 ## Replace /path/to/training_dataset  with the actual paths to your training dataset.
 
+
+
+## Don't Rely on tqdm progress bar as it seems not progressing but actually the run is running so wait for few minitues to complete one epoch as one epoch completes accuracy will be printed so you can verify that it it running perfectly fine.
+
                         
