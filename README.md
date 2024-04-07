@@ -2,9 +2,14 @@ This repository contains two Jupyter Notebook files for building Convolutional N
 
 # Part A: CNN Architecture from Scratch
 
-In Part A, the architecture can be customized by adjusting the following parameters:
+- Usage:
 
-The architecture can be customized by adjusting parameters such as:
+  - Pass the path of train dataset folder in **Question 2 "arguments"** method and in **Question 4 "arguments_2"** method :
+    
+  - Pass the path of test dataset folder in Question 4 "arguments_2" method :
+    
+
+The architecture can be customized by adjusting parameters by applying these parameters in sweep such as:
 
   - Number of Filters: 32, 64, 128
   - Activation Function: ReLU, GELU, SiLU, Mish
@@ -17,16 +22,19 @@ The architecture can be customized by adjusting parameters such as:
   - Batch Size: 32, 64
   - Data Augmentation: Yes, No
 
-- Usage:
 
-  - Pass the path of train dataset folder in **Question 2 "arguments"** method and in **Question 4 "arguments_2"** method :
-    
-  - Pass the path of test dataset folder in Question 4 "arguments_2" method :
 
 
 
 
 # Part B: Pre Trained CNN Model and Fine-Tuning
+
+- Usage:
+
+  - Pass the path of train dataset folder in **"arguments"** method 
+    
+  - As i am applyinf pre-trained model on train dataset by spliting it in 80% training and 20% validation i am fine tuning the pre-trained Resnet model for better validation accuracy.
+    
 
 In Part B, the following parameters can be customized:
 
@@ -43,17 +51,15 @@ In Part B, the following parameters can be customized:
   - Freeze index: 2, 3, 4
   - Data augmentation: Yes, No
 
-- Usage:
 
-  - Pass the path of train dataset folder in **"arguments"** method 
-    
-  - As i am applyinf pre-trained model on train dataset by spliting it in 80% training and 20% validation i am fine tuning the pre-trained Resnet model for better validation accuracy.
 
 
 - Note:
   
   - Each notebook provides detailed instructions and code comments to guide customization and execution.
+    
   - It is recommended to have a GPU-enabled environment for faster training.
+    
   - Ensure that the dataset folders are correctly structured and contain the necessary images for training and testing.
     
 
