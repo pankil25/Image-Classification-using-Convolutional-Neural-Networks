@@ -13,6 +13,7 @@ Make sure you have the following libraries installed:
 - matplotlib >= 3.0
 - tqdm >= 4.0
 - wandb >= 0.10
+- argparse
 
 You can install these dependencies using pip:
 
