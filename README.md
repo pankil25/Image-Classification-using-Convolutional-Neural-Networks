@@ -1,3 +1,9 @@
+# Inside the partA and partB directory i have provided README files for each train.py and ipynb file kindly use that in respective directory partA or partB.
+
+
+## The below is for only ipynb files
+
+
 This repository contains two Jupyter Notebook files for building Convolutional Neural Network (CNN) architectures for image classification tasks. The notebooks are divided into two parts: Part A and Part B.
 
 # Part A: CNN Architecture from Scratch
