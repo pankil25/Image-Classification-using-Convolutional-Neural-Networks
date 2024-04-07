@@ -3,6 +3,24 @@
 
 Implemented pretrained model is Resnet.
 
+## Dependencies
+
+Make sure you have the following libraries installed:
+
+- torch >= 1.0
+- torchvision >= 0.2
+- Pillow >= 8.0
+- matplotlib >= 3.0
+- tqdm >= 4.0
+- wandb >= 0.10
+
+You can install these dependencies using pip:
+
+
+pip install torch torchvision Pillow matplotlib tqdm wandb
+
+
+
 Following are the parameters for train.py :
 
 --num_filters: Number of filters/kernels in each convolutional layer. Default: 128.
